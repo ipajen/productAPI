@@ -1,0 +1,8 @@
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\repository\ProductRepository.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\model\Product.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\service\ProductService.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\exception\EntityNotFoundException.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\controller\ProductController.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\ProduktapiApplication.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\service\ExceptionHandlerAdvice.java
+C:\Users\barna\productAPI\src\main\java\com\example\produktapi\exception\BadRequestException.java
