@@ -59,7 +59,6 @@ public class Product {
         this.category = category;
     }
 
-
     public String getDescription() {
         return description;
     }
@@ -75,5 +74,4 @@ public class Product {
     public void setImage(String image) {
         this.image = image;
     }
-
 }
