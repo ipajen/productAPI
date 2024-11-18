@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ProductTestPart1 {
+class ProductTestPartOne {
 
     @Test
     public void test_Product_empty_constructor() {
