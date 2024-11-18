@@ -1,0 +1,16 @@
+# Ignore IntelliJ IDEA project files
+.idea/
+
+# Ignore compiled files
+*.class
+*.jar
+
+# Ignore log files
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore specific file
+src/main/java/com/example/produktapi/controller/ProductController.java
