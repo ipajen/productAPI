@@ -21,7 +21,7 @@ class ProductTestPartOne {
 
     @Test
     //Barnali Test
-    void setPrice() {
+    void setPriceTest() {
         Product product = new Product();
 
         // Act: Set the price
