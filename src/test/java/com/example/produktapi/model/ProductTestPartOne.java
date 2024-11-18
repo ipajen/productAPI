@@ -40,4 +40,16 @@ class ProductTestPartOne {
         assertEquals(image, product.getImage());
     }
 
+    @Test
+    public void test_getId_setId(){
+        // Setup
+        Integer productId = 1;
+        Product product = new Product();
+        product.setId(productId);
+
+        // Act
+        // Assert
+        assertEquals(productId, product.getId());
+    }
+
 }
