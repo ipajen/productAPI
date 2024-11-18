@@ -7,7 +7,15 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductTestPartOne {
 
     @Test
-    void getPrice() {
+    //Barnali
+    void getPriceTest() {
+        Product product = new Product();
+
+        // Arrange: Set a known price
+        product.setPrice(159.99);
+
+        // Act & Assert: Ensure the getter returns the correct value
+        assertEquals(159.99, product.getPrice());
 
     }
 
