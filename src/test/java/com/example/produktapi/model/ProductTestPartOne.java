@@ -52,4 +52,16 @@ class ProductTestPartOne {
         assertEquals(productId, product.getId());
     }
 
+    @Test
+    public void test_getTitle_setTitle(){
+        // Setup
+        String title = "title";
+        Product product = new Product();
+        product.setTitle(title);
+
+        // Act
+        // Assert
+        assertEquals(title, product.getTitle());
+    }
+
 }
