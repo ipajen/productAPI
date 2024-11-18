@@ -6,6 +6,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProductTestPartOne {
 
+    // Author: Ingela Bladh
     @Test
     public void test_Product_empty_constructor() {
         // Act
@@ -20,6 +21,7 @@ class ProductTestPartOne {
         assertNull(product.getImage());
     }
 
+    // Author: Ingela Bladh
     @Test
     public void test_Product(){
         // Setup
@@ -40,6 +42,7 @@ class ProductTestPartOne {
         assertEquals(image, product.getImage());
     }
 
+    // Author: Ingela Bladh
     @Test
     public void test_getId_setId(){
         // Setup
@@ -52,6 +55,7 @@ class ProductTestPartOne {
         assertEquals(productId, product.getId());
     }
 
+    // Author: Ingela Bladh
     @Test
     public void test_getTitle_setTitle(){
         // Setup
