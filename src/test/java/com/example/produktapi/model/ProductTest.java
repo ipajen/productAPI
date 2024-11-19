@@ -18,8 +18,6 @@ class ProductTest {
         assertEquals(299.99, product.getPrice());
     }
 
-}
-
     @Test
     // Made by: Jarko Piironen
     public void testSetImage() {
