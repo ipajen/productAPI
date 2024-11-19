@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductTest {
 
     @Test
+    // Barnali Test
     void getCategoryTest() {
 
             // Initialize the product
