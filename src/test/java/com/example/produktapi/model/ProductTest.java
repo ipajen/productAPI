@@ -7,6 +7,20 @@ import static org.junit.jupiter.api.Assertions.*;
 class ProductTest {
 
     @Test
+
+    // Barnali Test
+    void getCategoryTest() {
+
+            // Initialize the product
+            Product product = new Product();
+
+            // Arrange: Set a known category
+            product.setCategory("Books");
+
+            // Act & Assert: Ensure the getter returns the correct value
+            assertEquals("Books", product.getCategory());
+    }
+
     //Barnali Test
     void setPriceTest() {
         Product product = new Product();
@@ -152,4 +166,3 @@ class ProductTest {
 
     }
 }
-
