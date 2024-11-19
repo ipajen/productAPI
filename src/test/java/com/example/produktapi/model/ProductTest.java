@@ -2,13 +2,24 @@ package com.example.produktapi.model;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.assertEquals;
 
 class ProductTest {
-
+   
+  //Barnali Test
     @Test
+    void testSetCategory() {
+        Product product = new Product();
 
-    // Barnali Test
+        // Act: Set the category
+        product.setCategory("Furniture");
+
+        // Assert: Ensure the category is set correctly
+        assertEquals("Furniture", product.getCategory());
+    }
+
+  // Barnali Test
+    @Test
     void getCategoryTest() {
 
             // Initialize the product
@@ -22,6 +33,7 @@ class ProductTest {
     }
 
     //Barnali Test
+    @Test
     void setPriceTest() {
         Product product = new Product();
 
